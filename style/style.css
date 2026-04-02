@@ -7,13 +7,14 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #222;
+    color: #222222;
+    background-color: #f4f4f4;
 }
 
 header,
 footer {
     padding: 1.5rem;
-    background-color: #333;
+    background-color: #083d61;
     color: #fff;
 }
 
@@ -23,6 +24,8 @@ main {
 
 section {
     margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
 }
 
 a {
@@ -32,15 +35,17 @@ a {
 
 a:hover {
     text-decoration: underline;
+    text-shadow: #222222 0px 0px 5px;
 }
 
 section h2 {
-    color: #333;
+    color: #083d61;
     margin-bottom: 0.5rem;
 }
 
 nav a {
     margin-right: 1rem;
+    background-color: #083d61;
 }
 
 header h1 {
@@ -49,6 +54,7 @@ header h1 {
 
 footer {
     text-align: center;
+    background-color: #083d61;
 }
 
 h1,
@@ -57,6 +63,6 @@ h2 {
 }
 
 a:focus {
-    outline: 2px solid #ff9800;
+    outline: 2px solid #a6ff00;
     outline-offset: 2px;
 }
